@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		801635AB2790A8D900A04DD0 /* MicrobioCatalogApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635AA2790A8D900A04DD0 /* MicrobioCatalogApp.swift */; };
+		801635AD2790A8D900A04DD0 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635AC2790A8D900A04DD0 /* WelcomeView.swift */; };
+		801635AF2790A8DB00A04DD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801635AE2790A8DB00A04DD0 /* Assets.xcassets */; };
+		801635B22790A8DB00A04DD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 801635B12790A8DB00A04DD0 /* Preview Assets.xcassets */; };
+		801635BC2790A8DC00A04DD0 /* MicrobioCatalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635BB2790A8DC00A04DD0 /* MicrobioCatalogTests.swift */; };
+		801635C62790A8DC00A04DD0 /* MicrobioCatalogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635C52790A8DC00A04DD0 /* MicrobioCatalogUITests.swift */; };
+		801635C82790A8DC00A04DD0 /* MicrobioCatalogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635C72790A8DC00A04DD0 /* MicrobioCatalogUITestsLaunchTests.swift */; };
+		801635DB2791391800A04DD0 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635DA2791391800A04DD0 /* MenuView.swift */; };
+		801635DD2791395C00A04DD0 /* ProtocolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635DC2791395C00A04DD0 /* ProtocolsView.swift */; };
+		801635DF279140A000A04DD0 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635DE279140A000A04DD0 /* Colors.swift */; };
+		801635E427914BBA00A04DD0 /* DetectiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635E327914BBA00A04DD0 /* DetectiveView.swift */; };
+		801635E627914C1A00A04DD0 /* BacteriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635E527914C1A00A04DD0 /* BacteriaView.swift */; };
+		801635E827914C6C00A04DD0 /* HelpfulLinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635E727914C6C00A04DD0 /* HelpfulLinksView.swift */; };
+		801635EA27914C8E00A04DD0 /* AboutCreatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635E927914C8E00A04DD0 /* AboutCreatorView.swift */; };
+		801635EC2791AFF200A04DD0 /* EndosporeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635EB2791AFF200A04DD0 /* EndosporeView.swift */; };
+		801635EE2791B07100A04DD0 /* HeatFixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635ED2791B07100A04DD0 /* HeatFixView.swift */; };
+		801635F02791B13800A04DD0 /* MediaInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635EF2791B13800A04DD0 /* MediaInfoView.swift */; };
+		801635F22791B16B00A04DD0 /* GramView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635F12791B16B00A04DD0 /* GramView.swift */; };
+		801635F42791B1EF00A04DD0 /* PropagationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635F32791B1EF00A04DD0 /* PropagationView.swift */; };
+		801635F62791B22200A04DD0 /* AcidFastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635F52791B22200A04DD0 /* AcidFastView.swift */; };
+		801635F82791B28E00A04DD0 /* CapsuleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635F72791B28E00A04DD0 /* CapsuleView.swift */; };
+		801635FB2791CDD200A04DD0 /* GalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 801635FA2791CDD200A04DD0 /* GalleryView.swift */; };
+		809FA9F82794039E000310B9 /* PPEView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 809FA9F72794039E000310B9 /* PPEView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		801635B82790A8DC00A04DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8016359F2790A8D900A04DD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 801635A62790A8D900A04DD0;
+			remoteInfo = MicrobioCatalog;
+		};
+		801635C22790A8DC00A04DD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8016359F2790A8D900A04DD0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 801635A62790A8D900A04DD0;
+			remoteInfo = MicrobioCatalog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		801635A72790A8D900A04DD0 /* MicrobioCatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MicrobioCatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		801635AA2790A8D900A04DD0 /* MicrobioCatalogApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrobioCatalogApp.swift; sourceTree = "<group>"; };
+		801635AC2790A8D900A04DD0 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		801635AE2790A8DB00A04DD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		801635B12790A8DB00A04DD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		801635B72790A8DC00A04DD0 /* MicrobioCatalogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrobioCatalogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		801635BB2790A8DC00A04DD0 /* MicrobioCatalogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrobioCatalogTests.swift; sourceTree = "<group>"; };
+		801635C12790A8DC00A04DD0 /* MicrobioCatalogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MicrobioCatalogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		801635C52790A8DC00A04DD0 /* MicrobioCatalogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrobioCatalogUITests.swift; sourceTree = "<group>"; };
+		801635C72790A8DC00A04DD0 /* MicrobioCatalogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MicrobioCatalogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		801635DA2791391800A04DD0 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		801635DC2791395C00A04DD0 /* ProtocolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolsView.swift; sourceTree = "<group>"; };
+		801635DE279140A000A04DD0 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		801635E1279147CF00A04DD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		801635E327914BBA00A04DD0 /* DetectiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectiveView.swift; sourceTree = "<group>"; };
+		801635E527914C1A00A04DD0 /* BacteriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BacteriaView.swift; sourceTree = "<group>"; };
+		801635E727914C6C00A04DD0 /* HelpfulLinksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpfulLinksView.swift; sourceTree = "<group>"; };
+		801635E927914C8E00A04DD0 /* AboutCreatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutCreatorView.swift; sourceTree = "<group>"; };
+		801635EB2791AFF200A04DD0 /* EndosporeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndosporeView.swift; sourceTree = "<group>"; };
+		801635ED2791B07100A04DD0 /* HeatFixView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatFixView.swift; sourceTree = "<group>"; };
+		801635EF2791B13800A04DD0 /* MediaInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaInfoView.swift; sourceTree = "<group>"; };
+		801635F12791B16B00A04DD0 /* GramView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GramView.swift; sourceTree = "<group>"; };
+		801635F32791B1EF00A04DD0 /* PropagationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropagationView.swift; sourceTree = "<group>"; };
+		801635F52791B22200A04DD0 /* AcidFastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcidFastView.swift; sourceTree = "<group>"; };
+		801635F72791B28E00A04DD0 /* CapsuleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleView.swift; sourceTree = "<group>"; };
+		801635FA2791CDD200A04DD0 /* GalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryView.swift; sourceTree = "<group>"; };
+		809FA9F72794039E000310B9 /* PPEView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PPEView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		801635A42790A8D900A04DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801635B42790A8DC00A04DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801635BE2790A8DC00A04DD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8016359E2790A8D900A04DD0 = {
+			isa = PBXGroup;
+			children = (
+				801635A92790A8D900A04DD0 /* MicrobioCatalog */,
+				801635BA2790A8DC00A04DD0 /* MicrobioCatalogTests */,
+				801635C42790A8DC00A04DD0 /* MicrobioCatalogUITests */,
+				801635A82790A8D900A04DD0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		801635A82790A8D900A04DD0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				801635A72790A8D900A04DD0 /* MicrobioCatalog.app */,
+				801635B72790A8DC00A04DD0 /* MicrobioCatalogTests.xctest */,
+				801635C12790A8DC00A04DD0 /* MicrobioCatalogUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		801635A92790A8D900A04DD0 /* MicrobioCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				801635E1279147CF00A04DD0 /* Info.plist */,
+				801635AA2790A8D900A04DD0 /* MicrobioCatalogApp.swift */,
+				801635AC2790A8D900A04DD0 /* WelcomeView.swift */,
+				801635DA2791391800A04DD0 /* MenuView.swift */,
+				801635FC2792221600A04DD0 /* Menu Views */,
+				801635AE2790A8DB00A04DD0 /* Assets.xcassets */,
+				801635DE279140A000A04DD0 /* Colors.swift */,
+				801635B02790A8DB00A04DD0 /* Preview Content */,
+			);
+			path = MicrobioCatalog;
+			sourceTree = "<group>";
+		};
+		801635B02790A8DB00A04DD0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				801635B12790A8DB00A04DD0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		801635BA2790A8DC00A04DD0 /* MicrobioCatalogTests */ = {
+			isa = PBXGroup;
+			children = (
+				801635BB2790A8DC00A04DD0 /* MicrobioCatalogTests.swift */,
+			);
+			path = MicrobioCatalogTests;
+			sourceTree = "<group>";
+		};
+		801635C42790A8DC00A04DD0 /* MicrobioCatalogUITests */ = {
+			isa = PBXGroup;
+			children = (
+				801635C52790A8DC00A04DD0 /* MicrobioCatalogUITests.swift */,
+				801635C72790A8DC00A04DD0 /* MicrobioCatalogUITestsLaunchTests.swift */,
+			);
+			path = MicrobioCatalogUITests;
+			sourceTree = "<group>";
+		};
+		801635F92791C16900A04DD0 /* ProtocolViews */ = {
+			isa = PBXGroup;
+			children = (
+				809FA9F72794039E000310B9 /* PPEView.swift */,
+				801635ED2791B07100A04DD0 /* HeatFixView.swift */,
+				801635F32791B1EF00A04DD0 /* PropagationView.swift */,
+				801635EF2791B13800A04DD0 /* MediaInfoView.swift */,
+				801635F12791B16B00A04DD0 /* GramView.swift */,
+				801635EB2791AFF200A04DD0 /* EndosporeView.swift */,
+				801635F52791B22200A04DD0 /* AcidFastView.swift */,
+				801635F72791B28E00A04DD0 /* CapsuleView.swift */,
+			);
+			path = ProtocolViews;
+			sourceTree = "<group>";
+		};
+		801635FC2792221600A04DD0 /* Menu Views */ = {
+			isa = PBXGroup;
+			children = (
+				801635DC2791395C00A04DD0 /* ProtocolsView.swift */,
+				801635F92791C16900A04DD0 /* ProtocolViews */,
+				801635E327914BBA00A04DD0 /* DetectiveView.swift */,
+				801635E527914C1A00A04DD0 /* BacteriaView.swift */,
+				801635E727914C6C00A04DD0 /* HelpfulLinksView.swift */,
+				801635FA2791CDD200A04DD0 /* GalleryView.swift */,
+				801635E927914C8E00A04DD0 /* AboutCreatorView.swift */,
+			);
+			path = "Menu Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		801635A62790A8D900A04DD0 /* MicrobioCatalog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801635CB2790A8DC00A04DD0 /* Build configuration list for PBXNativeTarget "MicrobioCatalog" */;
+			buildPhases = (
+				801635A32790A8D900A04DD0 /* Sources */,
+				801635A42790A8D900A04DD0 /* Frameworks */,
+				801635A52790A8D900A04DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MicrobioCatalog;
+			productName = MicrobioCatalog;
+			productReference = 801635A72790A8D900A04DD0 /* MicrobioCatalog.app */;
+			productType = "com.apple.product-type.application";
+		};
+		801635B62790A8DC00A04DD0 /* MicrobioCatalogTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801635CE2790A8DC00A04DD0 /* Build configuration list for PBXNativeTarget "MicrobioCatalogTests" */;
+			buildPhases = (
+				801635B32790A8DC00A04DD0 /* Sources */,
+				801635B42790A8DC00A04DD0 /* Frameworks */,
+				801635B52790A8DC00A04DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				801635B92790A8DC00A04DD0 /* PBXTargetDependency */,
+			);
+			name = MicrobioCatalogTests;
+			productName = MicrobioCatalogTests;
+			productReference = 801635B72790A8DC00A04DD0 /* MicrobioCatalogTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		801635C02790A8DC00A04DD0 /* MicrobioCatalogUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 801635D12790A8DC00A04DD0 /* Build configuration list for PBXNativeTarget "MicrobioCatalogUITests" */;
+			buildPhases = (
+				801635BD2790A8DC00A04DD0 /* Sources */,
+				801635BE2790A8DC00A04DD0 /* Frameworks */,
+				801635BF2790A8DC00A04DD0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				801635C32790A8DC00A04DD0 /* PBXTargetDependency */,
+			);
+			name = MicrobioCatalogUITests;
+			productName = MicrobioCatalogUITests;
+			productReference = 801635C12790A8DC00A04DD0 /* MicrobioCatalogUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8016359F2790A8D900A04DD0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					801635A62790A8D900A04DD0 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					801635B62790A8DC00A04DD0 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 801635A62790A8D900A04DD0;
+					};
+					801635C02790A8DC00A04DD0 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 801635A62790A8D900A04DD0;
+					};
+				};
+			};
+			buildConfigurationList = 801635A22790A8D900A04DD0 /* Build configuration list for PBXProject "MicrobioCatalog" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8016359E2790A8D900A04DD0;
+			productRefGroup = 801635A82790A8D900A04DD0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				801635A62790A8D900A04DD0 /* MicrobioCatalog */,
+				801635B62790A8DC00A04DD0 /* MicrobioCatalogTests */,
+				801635C02790A8DC00A04DD0 /* MicrobioCatalogUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		801635A52790A8D900A04DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801635B22790A8DB00A04DD0 /* Preview Assets.xcassets in Resources */,
+				801635AF2790A8DB00A04DD0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801635B52790A8DC00A04DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801635BF2790A8DC00A04DD0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		801635A32790A8D900A04DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801635F42791B1EF00A04DD0 /* PropagationView.swift in Sources */,
+				809FA9F82794039E000310B9 /* PPEView.swift in Sources */,
+				801635AD2790A8D900A04DD0 /* WelcomeView.swift in Sources */,
+				801635F02791B13800A04DD0 /* MediaInfoView.swift in Sources */,
+				801635DF279140A000A04DD0 /* Colors.swift in Sources */,
+				801635F82791B28E00A04DD0 /* CapsuleView.swift in Sources */,
+				801635FB2791CDD200A04DD0 /* GalleryView.swift in Sources */,
+				801635DB2791391800A04DD0 /* MenuView.swift in Sources */,
+				801635DD2791395C00A04DD0 /* ProtocolsView.swift in Sources */,
+				801635E627914C1A00A04DD0 /* BacteriaView.swift in Sources */,
+				801635E827914C6C00A04DD0 /* HelpfulLinksView.swift in Sources */,
+				801635E427914BBA00A04DD0 /* DetectiveView.swift in Sources */,
+				801635EC2791AFF200A04DD0 /* EndosporeView.swift in Sources */,
+				801635EE2791B07100A04DD0 /* HeatFixView.swift in Sources */,
+				801635EA27914C8E00A04DD0 /* AboutCreatorView.swift in Sources */,
+				801635F62791B22200A04DD0 /* AcidFastView.swift in Sources */,
+				801635AB2790A8D900A04DD0 /* MicrobioCatalogApp.swift in Sources */,
+				801635F22791B16B00A04DD0 /* GramView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801635B32790A8DC00A04DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801635BC2790A8DC00A04DD0 /* MicrobioCatalogTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		801635BD2790A8DC00A04DD0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801635C82790A8DC00A04DD0 /* MicrobioCatalogUITestsLaunchTests.swift in Sources */,
+				801635C62790A8DC00A04DD0 /* MicrobioCatalogUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		801635B92790A8DC00A04DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 801635A62790A8D900A04DD0 /* MicrobioCatalog */;
+			targetProxy = 801635B82790A8DC00A04DD0 /* PBXContainerItemProxy */;
+		};
+		801635C32790A8DC00A04DD0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 801635A62790A8D900A04DD0 /* MicrobioCatalog */;
+			targetProxy = 801635C22790A8DC00A04DD0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		801635C92790A8DC00A04DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		801635CA2790A8DC00A04DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		801635CC2790A8DC00A04DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MicrobioCatalog/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MicrobioCatalog/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.MicrobioCatalog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		801635CD2790A8DC00A04DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MicrobioCatalog/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MicrobioCatalog/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.MicrobioCatalog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		801635CF2790A8DC00A04DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.MicrobioCatalogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicrobioCatalog.app/MicrobioCatalog";
+			};
+			name = Debug;
+		};
+		801635D02790A8DC00A04DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.MicrobioCatalogTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MicrobioCatalog.app/MicrobioCatalog";
+			};
+			name = Release;
+		};
+		801635D22790A8DC00A04DD0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.MicrobioCatalogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MicrobioCatalog;
+			};
+			name = Debug;
+		};
+		801635D32790A8DC00A04DD0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.MicrobioCatalogUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MicrobioCatalog;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		801635A22790A8D900A04DD0 /* Build configuration list for PBXProject "MicrobioCatalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801635C92790A8DC00A04DD0 /* Debug */,
+				801635CA2790A8DC00A04DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801635CB2790A8DC00A04DD0 /* Build configuration list for PBXNativeTarget "MicrobioCatalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801635CC2790A8DC00A04DD0 /* Debug */,
+				801635CD2790A8DC00A04DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801635CE2790A8DC00A04DD0 /* Build configuration list for PBXNativeTarget "MicrobioCatalogTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801635CF2790A8DC00A04DD0 /* Debug */,
+				801635D02790A8DC00A04DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		801635D12790A8DC00A04DD0 /* Build configuration list for PBXNativeTarget "MicrobioCatalogUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				801635D22790A8DC00A04DD0 /* Debug */,
+				801635D32790A8DC00A04DD0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8016359F2790A8D900A04DD0 /* Project object */;
+}
